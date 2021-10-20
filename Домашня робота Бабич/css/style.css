@@ -1,0 +1,243 @@
+@font-face {
+	font-family: 'Gotham-Black';
+	src: url('../fonts/gotham-black/Gotham-Black.eot');
+	src: url('../fonts/gotham-black/Gotham-Black.eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/gotham-black/Gotham-Black.svg#Gotham-Black') format('svg'),
+		 url('../fonts/gotham-black/Gotham-Black.ttf') format('truetype'),
+		 url('../fonts/gotham-black/Gotham-Black.woff') format('woff'),
+		 url('../fonts/gotham-black/Gotham-Black.woff2') format('woff2');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Lato-Light';
+	src: url('../fonts/Lato-light/Lato-Light.eot');
+	src: url('../fonts/Lato-light/Lato-Light.eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/Lato-light/Lato-Light.svg#Lato-Light') format('svg'),
+		 url('../fonts/Lato-light/Lato-Light.ttf') format('truetype'),
+		 url('../fonts/Lato-light/Lato-Light.woff') format('woff'),
+		 url('../fonts/Lato-light/Lato-Light.woff2') format('woff2');
+	font-weight: normal;
+	font-style: normal;
+}
+  @font-face {
+	font-family: 'Lato-Bold';
+	src: url('../fonts/lato-bold/Lato-Bold.eot');
+	src: url('../fonts/lato-bold/Lato-Bold.eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/lato-bold/Lato-Bold.svg#Lato-Bold') format('svg'),
+		 url('../fonts/lato-bold/Lato-Bold.ttf') format('truetype'),
+		 url('../fonts/lato-bold/Lato-Bold.woff') format('woff'),
+		 url('../fonts/lato-bold/Lato-Bold.woff2') format('woff2');
+	font-weight: normal;
+	font-style: normal;
+}
+  @font-face {
+	font-family: 'OpenSans-Regular';
+	src: url('../fonts/open-sans-regylar/OpenSans-Regular.eot');
+	src: url('../fonts/open-sans-regylar/OpenSans-Regular.eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/open-sans-regylar/OpenSans-Regular.svg#OpenSans-Regular') format('svg'),
+		 url('../fonts/open-sans-regylar/OpenSans-Regular.ttf') format('truetype'),
+		 url('../fonts/open-sans-regylar/OpenSans-Regular.woff') format('woff'),
+		 url('../fonts/open-sans-regylar/OpenSans-Regular.woff2') format('woff2');
+	font-weight: normal;
+	font-style: normal;
+}
+  @font-face {
+	font-family: 'Lato-Regular';
+	src: url('../fonts/lato-regular/Lato-Regular.eot');
+	src: url('../fonts/lato-regular/Lato-Regular.eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/lato-regular/Lato-Regular.svg#Lato-Regular') format('svg'),
+		 url('../fonts/lato-regular/Lato-Regular.ttf') format('truetype'),
+		 url('../fonts/lato-regular/Lato-Regular.woff') format('woff'),
+		 url('../fonts/lato-regular/Lato-Regular.woff2') format('woff2');
+	font-weight: normal;
+	font-style: normal;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+li {
+	list-style-type: none;
+}
+/*BANNER*/
+.banner-all-width {
+	background: #6f9cca;
+}
+.banner {
+	background: #6f9cca;
+	display: flex;
+	max-width: 1170px;
+	flex-direction: column;
+	align-items: center;
+	height: 588px;
+	margin: 0 auto;
+}
+.h1-text-style-banner {
+	font-family: sans-serif;
+	font-size: 35px;
+	color: #ffffff;
+	margin-top: 110px;
+}
+.h2-text-style-banner {
+	font-family: sans-serif;
+	font-size: 16px;
+	color: #ffffff;	
+	margin-top: 11px;
+	margin-bottom: 35px;
+}
+.registration {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+.input-full-name {
+	width: 260px;
+	height: 45px;
+	padding-left: 40px;
+	font-family: 'OpenSans-Regular';
+	font-size: 13px;
+	color: #a9a9a9;
+	border: 2px solid transparent;
+	border-radius: 2px;
+	background: url(../img/full-name.png);
+	background-color: white;
+	background-repeat: no-repeat;
+	background-position: 15px;
+	outline: 1px solid transparent;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+.input-email-address {
+	width: 260px;
+	height: 45px;
+	padding-left: 40px;
+	font-family: 'OpenSans-Regular';
+	font-size: 13px;
+	color: #a9a9a9;
+	border: 2px solid transparent;
+	border-radius: 2px;
+	background: url(../img/email-address.png);
+	background-color: white;
+	background-repeat: no-repeat;
+	background-position: 15px;
+	outline: 1px solid transparent;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+.input-phone-number {
+	width: 260px;
+	height: 45px;
+	padding-left: 40px;
+	font-family: 'OpenSans-Regular';
+	font-size: 13px;
+	color: #a9a9a9;
+	border: 2px solid transparent;
+	border-radius: 2px;
+	background: url(../img/phone-number.png);
+	background-color: white;
+	background-repeat: no-repeat;
+	background-position: 15px;
+	outline: 1px solid transparent;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+.submit {
+	width: 190px;
+	height: 50px;
+	font-family: 'OpenSans-Regular';
+	font-size: 13px;
+	color: white;
+	border-radius: 2px;
+	background-color: #ffbb41;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+input:hover {
+	background-color: #ffbb41;
+	color: white;
+}
+.laptop {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	max-width: 1170px;
+	margin: -280px auto 0 auto;
+}
+.img-laptop {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 344px;
+	width: 647px;
+}
+.bottom-img-laptop {
+	display: flex;
+	justify-content: center;
+	margin-top: 22px;
+}
+.bottom-img-laptop-center {
+	margin-left: 7px;
+	margin-right: 7px;
+}
+@media (max-width: 1120px) {
+.registration {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	}
+.laptop {
+	max-width: 1170px;
+	margin: -255px auto 0 auto;
+	}
+}
+@media (max-width: 784px) {
+	.laptop {
+		max-width: 1170px;
+		margin: -237px auto 0 auto;
+	}
+}
+@media (max-width: 648px) {
+	.laptop {
+		max-width: 1170px;
+		margin: -178px auto 0 auto;
+	}
+}
+@media (max-width: 627px) {
+	.laptop {
+		max-width: 1170px;
+		margin: -138px auto 0 auto;
+	}
+}
+@media (max-width: 534px) {
+	.laptop {
+		max-width: 1170px;
+		margin: -80px auto 0 auto;
+	}
+}
+@media (max-width: 497px) {
+	.img-laptop {
+		max-height: 250px;
+		max-width: 497px;
+	}
+}
+@media (max-width: 400px) {
+	.laptop {
+		max-width: 1170px;
+		margin: -62px auto 0 auto;
+	}
+}
+@media (max-width: 387px) {
+	.img-laptop {
+		max-height: 204px;
+		max-width: 408px;
+	}
+}
+@media (max-width: 325px) {
+	.laptop {
+		max-width: 408px;
+		margin: -23px auto 0 auto;
+	}
+}
